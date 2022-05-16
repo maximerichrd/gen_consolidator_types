@@ -1,0 +1,20 @@
+MYSQL_DB_NAME=mysql-test-db
+MYSQL_DB_PORT=3306
+MYSQL_DB_USER=user
+MYSQL_DB_PASSWORD=password
+MYSQL_DB_HOST=localhost
+
+SQL_IOTS_TYPES=nchar,string
+SQL_IOTS_TYPES=nvarchar,string
+SQL_IOTS_TYPES=varchar,string
+SQL_IOTS_TYPES=int,number
+SQL_IOTS_TYPES=decimal,number
+SQL_IOTS_TYPES=tinyint,number
+SQL_IOTS_TYPES=datetime,string
+SQL_IOTS_TYPES=date,string
+
+OUTPUT_DIR=.
+OUTPUT_NAME=db-types.ts
+
+# Optional
+EXTRA_TS_TYPES_FILEPATH=./extra-types.ts
